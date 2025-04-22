@@ -1,0 +1,11 @@
+Risk ID,Title,Likelihood,Impact,Score,Description,Owner,Frameworks
+R1,Unauthorized Access to PHI,3,3,9,Unauthorized access to PHI due to lack of enforced MFA and inconsistent RBAC across systems.,GRC / IT Security,HIPAA 164.312(a); ISO A.9; SOC 2 CC6.1; NIST PR.AC; COBIT DSS05.04
+R2,Cloud Misconfiguration,3,3,9,Misconfigured cloud services (e.g. public S3) expose sensitive data due to lack of CSPM and SCP enforcement.,DevOps,ISO A.10; SOC 2 CC7.2; HIPAA; NIST DE.CM; HITRUST 01.b
+R3,Insecure Vendor API,2,3,6,Third-party integrations lack proper security controls like DPA and breach SLAs.,Procurement / Legal,SOC 2 CC9.2; HIPAA 164.308(b)(1); GDPR Art. 28; ISO A.15
+R4,Inadequate Logging & Monitoring,3,2,6,"Lack of centralized SIEM, log retention, and correlation impairs threat detection.",SecOps,ISO A.12.4; HIPAA 164.312(b); SOC 2 CC7.2; NIST DE.CM; PCI Req. 10
+R5,Insider Misuse,2,3,6,Insiders can misuse system privileges without detection due to lack of UEBA or DLP.,HR / SecOps,SOC 2 CC6.2; HIPAA 164.308(a)(4); ISO A.9.4; NIST PR.AC
+R6,Weak Encryption of Data at Rest,2,3,6,Backups and some volumes not encrypted with AES-256; KMS not enforced.,DevOps,HIPAA 164.312(e); PCI DSS Req. 3.5; ISO A.10; NIST PR.DS
+R7,Lack of BCP/DR Plan,1,3,3,No formal disaster recovery plan or documented RTO/RPO; no DR tests performed.,GRC / DevOps,HIPAA 164.308(a)(7); ISO A.17; SOC 2 CC9.1; NIST ID.BE
+R8,Insecure SDLC,2,2,4,"Code is pushed to production without peer review, scanning, or secure workflows.",Engineering / AppSec,ISO A.14; SOC 2 CC8.1; PCI Req. 6.5; NIST PR.IP-3
+R9,No Formal Risk Management,3,2,6,Risks are not tracked or assigned ownership; no lifecycle management in place.,GRC,ISO A.6.1.2; SOC 2 CC4.1; NIST ID.RA; HITRUST RM-01
+R10,Phishing & Social Engineering Risk,3,2,6,Employees are not trained or tested against phishing; no LMS or simulated tests.,HR / Security,HIPAA 164.308(a)(5); ISO A.7.2.2; SOC 2 CC2.1; PCI 12.6
