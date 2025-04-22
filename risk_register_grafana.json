@@ -1,11 +1,11 @@
-Risk ID,Title,Likelihood,Impact,Score,Owner,Category
-R1,Unauthorized Access to PHI,3,3,9,GRC / IT Security,Access Control
-R2,Cloud Misconfiguration,3,3,9,DevOps,Cloud Security
-R3,Insecure Vendor API,2,3,6,Procurement / Legal,Third-Party Risk
-R4,Inadequate Logging,3,2,6,SecOps,Monitoring
-R5,Insider Misuse,2,3,6,HR / SecOps,Insider Threat
-R6,Weak Encryption,2,3,6,DevOps,Data Protection
-R7,Missing BCP/DR Plan,1,3,3,GRC / DevOps,Business Continuity
-R8,Insecure SDLC,2,2,4,Engineering / AppSec,Application Security
-R9,No Risk Program,3,2,6,GRC,Governance
-R10,Phishing Risk,3,2,6,HR / Security,Security Awareness
+Risk ID,Likelihood,Impact,Score
+R1,3,3,9,GRC / IT Security
+R2,3,3,9,DevOps
+R3,2,3,6,Procurement / Legal
+R4,3,2,6,SecOps
+R5,2,3,6,HR / SecOps
+R6,2,3,6,DevOps
+R7,1,3,3,GRC / DevOps
+R8,2,2,4,Engineering / AppSec
+R9,3,2,6,GRC,Governance
+R10,3,2,6,HR / Security
