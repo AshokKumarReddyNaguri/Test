@@ -1,0 +1,102 @@
+[
+  {
+    "Risk ID": "R1",
+    "Title": "Unauthorized Access to PHI",
+    "Likelihood": 3,
+    "Impact": 3,
+    "Score": 9,
+    "Description": "Lack of MFA and poor RBAC exposes PHI",
+    "Owner": "GRC / IT Security",
+    "Frameworks": "HIPAA 164.312(a) | ISO A.9 | SOC 2 CC6.1 | NIST PR.AC | COBIT DSS05.04"
+  },
+  {
+    "Risk ID": "R2",
+    "Title": "Cloud Misconfiguration",
+    "Likelihood": 3,
+    "Impact": 3,
+    "Score": 9,
+    "Description": "Public cloud storage and no config scanning",
+    "Owner": "DevOps",
+    "Frameworks": "ISO A.10 | SOC 2 CC7.2 | HIPAA | NIST DE.CM | HITRUST 01.b"
+  },
+  {
+    "Risk ID": "R3",
+    "Title": "Insecure Vendor API",
+    "Likelihood": 2,
+    "Impact": 3,
+    "Score": 6,
+    "Description": "Vendors lack breach SLAs and DPA controls",
+    "Owner": "Procurement / Legal",
+    "Frameworks": "SOC 2 CC9.2 | HIPAA 164.308(b)(1) | GDPR Art. 28 | ISO A.15"
+  },
+  {
+    "Risk ID": "R4",
+    "Title": "Inadequate Logging",
+    "Likelihood": 3,
+    "Impact": 2,
+    "Score": 6,
+    "Description": "No SIEM, no log correlation or retention",
+    "Owner": "SecOps",
+    "Frameworks": "ISO A.12.4 | HIPAA 164.312(b) | SOC 2 CC7.2 | NIST DE.CM | PCI Req. 10"
+  },
+  {
+    "Risk ID": "R5",
+    "Title": "Insider Misuse",
+    "Likelihood": 2,
+    "Impact": 3,
+    "Score": 6,
+    "Description": "No UEBA or alerting on high-risk user activity",
+    "Owner": "HR / SecOps",
+    "Frameworks": "SOC 2 CC6.2 | HIPAA 164.308(a)(4) | ISO A.9.4 | NIST PR.AC"
+  },
+  {
+    "Risk ID": "R6",
+    "Title": "Weak Encryption",
+    "Likelihood": 2,
+    "Impact": 3,
+    "Score": 6,
+    "Description": "Backups not encrypted, KMS not enforced",
+    "Owner": "DevOps",
+    "Frameworks": "HIPAA 164.312(e) | PCI DSS Req. 3.5 | ISO A.10 | NIST PR.DS"
+  },
+  {
+    "Risk ID": "R7",
+    "Title": "Missing BCP/DR Plan",
+    "Likelihood": 1,
+    "Impact": 3,
+    "Score": 3,
+    "Description": "No disaster recovery testing or planning",
+    "Owner": "GRC / DevOps",
+    "Frameworks": "HIPAA 164.308(a)(7) | ISO A.17 | SOC 2 CC9.1 | NIST ID.BE"
+  },
+  {
+    "Risk ID": "R8",
+    "Title": "Insecure SDLC",
+    "Likelihood": 2,
+    "Impact": 2,
+    "Score": 4,
+    "Description": "No secure code review or static scanning",
+    "Owner": "Engineering / AppSec",
+    "Frameworks": "ISO A.14 | SOC 2 CC8.1 | PCI Req. 6.5 | NIST PR.IP-3"
+  },
+  {
+    "Risk ID": "R9",
+    "Title": "No Risk Program",
+    "Likelihood": 3,
+    "Impact": 2,
+    "Score": 6,
+    "Description": "No central risk register or risk lifecycle",
+    "Owner": "GRC",
+    "Frameworks": "ISO A.6.1.2 | SOC 2 CC4.1 | NIST ID.RA | HITRUST RM-01"
+  },
+  {
+    "Risk ID": "R10",
+    "Title": "Phishing Risk",
+    "Likelihood": 3,
+    "Impact": 2,
+    "Score": 6,
+    "Description": "No phishing testing or user training",
+    "Owner": "HR / Security",
+    "Frameworks": "HIPAA 164.308(a)(5) | ISO A.7.2.2 | SOC 2 CC2.1 | PCI 12.6"
+  }
+]
