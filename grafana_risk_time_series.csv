@@ -1,11 +1,11 @@
-Risk ID,Title,Discovered Date,Resolved Date,Score,Owner
-R1,Unauthorized Access to PHI,2024-02-18,2024-03-28,6,GRC / IT Security
-R2,Cloud Misconfiguration,2024-01-10,2024-02-18,6,DevOps
-R3,Insecure Vendor API,2024-02-29,2024-03-25,9,Procurement / Legal
-R4,Inadequate Logging,2024-01-31,2024-02-11,6,SecOps
-R5,Insider Misuse,2024-02-16,2024-03-14,9,HR / SecOps
-R6,Weak Encryption,2024-01-25,2024-03-02,9,DevOps
-R7,Missing BCP/DR Plan,2024-01-04,2024-01-24,3,GRC / DevOps
-R8,Insecure SDLC,2024-01-15,2024-02-23,6,Engineering / AppSec
-R9,No Risk Program,2024-01-22,2024-03-01,4,GRC
-R10,Phishing Risk,2024-02-10,2024-03-01,9,HR / Security
+Risk ID,Title,Discovered Date,Resolved Date,Score,Owner,Remediated
+R1,Unauthorized Access to PHI,2024-02-18,2024-03-28,6,GRC / IT Security,Yes
+R2,Cloud Misconfiguration,2024-01-10,2024-02-18,6,DevOps,Yes
+R3,Insecure Vendor API,2024-02-29,2024-03-25,9,Procurement / Legal,No
+R4,Inadequate Logging,2024-01-31,2024-02-11,6,SecOps,No
+R5,Insider Misuse,2024-02-16,2024-03-14,9,HR / SecOps,Yes
+R6,Weak Encryption,2024-01-25,2024-03-02,9,DevOps,No
+R7,Missing BCP/DR Plan,2024-01-04,2024-01-24,3,GRC / DevOps,Yes
+R8,Insecure SDLC,2024-01-15,2024-02-23,6,Engineering / AppSec,Yes
+R9,No Risk Program,2024-01-22,2024-03-01,4,GRC,No
+R10,Phishing Risk,2024-02-10,2024-03-01,9,HR / Security,Yes
